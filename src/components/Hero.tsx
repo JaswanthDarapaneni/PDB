@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import { ArrowRight, Upload, Play } from 'lucide-react';
 
 const Hero = () => {
@@ -16,10 +16,10 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary/10">
-        <div className="absolute inset-0 bg-gradient-glow"></div>
+        <div className="absolute inset-0 "></div>
         <div className="absolute inset-0">
           {/* Animated circles */}
-          <motion.div
+          {/* <motion.div
             animate={{
               scale: [1, 1.2, 1],
               opacity: [0.3, 0.5, 0.3],
@@ -30,8 +30,8 @@ const Hero = () => {
               ease: "easeInOut"
             }}
             className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/20 blur-3xl"
-          />
-          <motion.div
+          /> */}
+          {/* <motion.div
             animate={{
               scale: [1.2, 1, 1.2],
               opacity: [0.2, 0.4, 0.2],
@@ -43,7 +43,7 @@ const Hero = () => {
               delay: 1
             }}
             className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-secondary/30 blur-3xl"
-          />
+          /> */}
         </div>
       </div>
 
@@ -71,7 +71,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-              <span className="gradient-text">Creative Visuals.</span>
+              <span className="gradient-text" >Creative Visuals.</span>
               <br />
               <span className="text-foreground">Real Results.</span>
             </h1>
