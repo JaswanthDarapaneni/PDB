@@ -75,7 +75,7 @@ const Navbar = () => {
               M
             </div> */}
              
-            <div className="w-56 h-20 sm:w-45 sm:h-20 flex items-center justify-center rounded-xl  ">
+            <div className="w-46 h-20 sm:w-45 sm:h-20 flex items-center justify-center rounded-xl  ">
               <img
                 src="/main.png" // <-- replace with your actual logo path
                 alt="Mana Product2Brand "
